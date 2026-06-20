@@ -15,15 +15,14 @@ Most files are historical exports retained for reference purposes only.
 
 Last reviewed: March 2025
 
-.
-├── README.md
-├── docs
-│   ├── migration_notes.md
-│   └── auth_audit.md
-├── backups
-│   └── user_export_2025.txt
-├── scripts
-│   ├── sync_users.sh
-│   └── audit_accounts.sh
-└── config
-    └── ldap.conf
+# Migration Notes
+
+## Completed
+- User migration
+- Home directory sync
+- SSH key import
+
+## Pending
+- MFA rollout
+- Account cleanup
+- Service account review
